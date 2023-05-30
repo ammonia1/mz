@@ -1,0 +1,6 @@
+<div class="showcase emerge">
+                <figure>
+                    <img class="emerge" data-effect="zoom" data-scale=".9" style="border: 30px solid rgb(156, 148, 137); box-shadow: 2px 4px 10px 0px rgba(0,0,0,0.3);" height="500px" src="https://images.unsplash.com/photo-1683143726325-ee14e56ab69c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=778&q=80">
+                    <figcaption class=" emerge"  data-effect="slide" data-up="2em" style="margin-top: 2em; line-height: 2em; color: #636363;">Tangerines and Canadian cloth<br>2022</figcaption>
+                </figure>
+            </div>
