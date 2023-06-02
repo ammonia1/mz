@@ -188,11 +188,21 @@ margin: 0 1.5em;
 }
 
 main {
-    padding: 0 60px;
 }
 
 main.hidden {
     
+}
+
+.showcase-container {
+    padding: 0;
+    margin: 0;
+    background-color: #e9e9e9;
+}
+
+.showcase-container img {
+    max-height: 700px;
+    max-width: auto;
 }
 
 .pricelist {
@@ -271,6 +281,14 @@ main.hidden {
         background-color: transparent;
     }
 
+    .showcase-container img {
+        height: auto;
+        width: 100%;
+    }
+
+    .showcase-container {
+        height: auto;
+      }
     
     .header-link {
         margin: 0;
