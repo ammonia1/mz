@@ -22,38 +22,49 @@
             <nav id="header">
                 <a id="header__home" class="header-link" href=""><span class="header__home-gap">M.</span>Zimanovsky</a>
                 <div id="menu">
-                    <a class="header-link" href="/about">About</a>
-
-                    <a class="header-link" href="/pricelist.html">Pricelist</a>
+                    <div id="header-links">
+                        <a class="header-link" href="/about">About</a>
+                        <a class="header-link" href="/pricelist.html">Pricelist</a>
+                    </div>
                     <!--<button onclick="togglecontactform();" class="header-link"></button>-->
-                    <label id="contact-button" class="header-link" for="contact-toggle-checkbox">Contact M.</label>
                     <input type="checkbox" id="contact-toggle-checkbox">
-                    <div id="contact-container">
-                        <div id="contact-container__form-container">
+
+                    <label id="contact-button" class="header-link" for="contact-toggle-checkbox"><span>Contact M.</span></label>
+                    <div id="slideout">
+                        <div id="contact__form-container">
                             <form>
-                                <label for="name">E-mail</label>
-                                <input type="text" name="name" id="name" required>
+                                <div class="contact__form-container--row">
+                                    <label for="name">E-mail </label>
+                                    <input type="text" name="name" id="name" required>
+                                </div>
+                                <div class="contact__form-container--row">
+                                    <label for="name">Message </label>
+                                    <textarea type="text" name="name" id="name" required></textarea>
+                                </div>
                                 
-                                <label for="name">Message </label>
-                                <input type="text" name="name" id="name" required>
                             </form>
                         </div>
-                    </div>                </div>
-                
-            </nav>
-            <nav id="mobile-menu-container" >
-                
-                    <a class="mobile-menu-link" href="/about">
-                        About
-                    </a><a class="mobile-menu-link" href="/about">Pricelist</a>
+                        <nav id="mobile-header">
+                            <div id="mobile-header-links">
+                                <a class="header-link" href="/about">Showcase</a>
+                                <a class="header-link" href="/about">About</a>
+                                <a class="header-link" href="/pricelist.html">Pricelist</a>
+                            </div>
+                        </nav>
 
+                    </div>
+                </div>
+                
             </nav>
-            
         </header>
         <main id="main" data-effect="relax"  class="emerge" data-hold="100">
             <figure class="showcase-container">
                 <img src="oranges.jpg">
+                <figcaption class="showcase-container__title">Tangerine Dreams<span class="showcase-container__year">2022</span></figcaption>
+                
+                
             </figure>
+            <button></button>
         </main>
     </div>
 </body>
